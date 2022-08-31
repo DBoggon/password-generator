@@ -1,6 +1,8 @@
 package passwordGenerator;
 
-public class Button {
+import javax.swing.JFrame;
+
+public class Button extends JFrame {
 	private boolean selected = false;
 	private String mnemonic;
 	
